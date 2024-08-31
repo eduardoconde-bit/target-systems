@@ -1,5 +1,3 @@
-print("Invertendo Strings")
-
 class StringFunction:
 
     @staticmethod
@@ -13,5 +11,6 @@ class StringFunction:
         except Exception as e:
             print(f'Error: {e}')
 
+print("Invertendo Strings")
 string = input("Entre com uma cadeia de texto: ")
 print(f'Texto Invertido: {StringFunction.reverse(string)}')
