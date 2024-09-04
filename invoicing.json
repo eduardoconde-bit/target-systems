@@ -1,157 +1,122 @@
 [
-    {
-        "Data": "2024-08-01",
-        "Faturamento": 14646.43,
-        "Dia_da_Semana": "Thursday"
-    },
-    {
-        "Data": "2024-08-02",
-        "Faturamento": 43003.22,
-        "Dia_da_Semana": "Friday"
-    },
-    {
-        "Data": "2024-08-03",
-        "Faturamento": 0,
-        "Dia_da_Semana": "Saturday"
-    },
-    {
-        "Data": "2024-08-04",
-        "Faturamento": 0,
-        "Dia_da_Semana": "Sunday"
-    },
-    {
-        "Data": "2024-08-05",
-        "Faturamento": 25006.69,
-        "Dia_da_Semana": "Monday"
-    },
-    {
-        "Data": "2024-08-06",
-        "Faturamento": 12536.3,
-        "Dia_da_Semana": "Tuesday"
-    },
-    {
-        "Data": "2024-08-07",
-        "Faturamento": 18143.27,
-        "Dia_da_Semana": "Wednesday"
-    },
-    {
-        "Data": "2024-08-08",
-        "Faturamento": 49746.44,
-        "Dia_da_Semana": "Thursday"
-    },
-    {
-        "Data": "2024-08-09",
-        "Faturamento": 10633.12,
-        "Dia_da_Semana": "Friday"
-    },
-    {
-        "Data": "2024-08-10",
-        "Faturamento": 0,
-        "Dia_da_Semana": "Saturday"
-    },
-    {
-        "Data": "2024-08-11",
-        "Faturamento": 0,
-        "Dia_da_Semana": "Sunday"
-    },
-    {
-        "Data": "2024-08-12",
-        "Faturamento": 31340.42,
-        "Dia_da_Semana": "Monday"
-    },
-    {
-        "Data": "2024-08-13",
-        "Faturamento": 41444.79,
-        "Dia_da_Semana": "Tuesday"
-    },
-    {
-        "Data": "2024-08-14",
-        "Faturamento": 25679.8,
-        "Dia_da_Semana": "Wednesday"
-    },
-    {
-        "Data": "2024-08-15",
-        "Faturamento": 32702.02,
-        "Dia_da_Semana": "Thursday"
-    },
-    {
-        "Data": "2024-08-16",
-        "Faturamento": 14680.3,
-        "Dia_da_Semana": "Friday"
-    },
-    {
-        "Data": "2024-08-17",
-        "Faturamento": 0,
-        "Dia_da_Semana": "Saturday"
-    },
-    {
-        "Data": "2024-08-18",
-        "Faturamento": 0,
-        "Dia_da_Semana": "Sunday"
-    },
-    {
-        "Data": "2024-08-19",
-        "Faturamento": 28022.35,
-        "Dia_da_Semana": "Monday"
-    },
-    {
-        "Data": "2024-08-20",
-        "Faturamento": 48156.31,
-        "Dia_da_Semana": "Tuesday"
-    },
-    {
-        "Data": "2024-08-21",
-        "Faturamento": 22245.95,
-        "Dia_da_Semana": "Wednesday"
-    },
-    {
-        "Data": "2024-08-22",
-        "Faturamento": 25305.57,
-        "Dia_da_Semana": "Thursday"
-    },
-    {
-        "Data": "2024-08-23",
-        "Faturamento": 30113.39,
-        "Dia_da_Semana": "Friday"
-    },
-    {
-        "Data": "2024-08-24",
-        "Faturamento": 0,
-        "Dia_da_Semana": "Saturday"
-    },
-    {
-        "Data": "2024-08-25",
-        "Faturamento": 0,
-        "Dia_da_Semana": "Sunday"
-    },
-    {
-        "Data": "2024-08-26",
-        "Faturamento": 48110.38,
-        "Dia_da_Semana": "Monday"
-    },
-    {
-        "Data": "2024-08-27",
-        "Faturamento": 14794.39,
-        "Dia_da_Semana": "Tuesday"
-    },
-    {
-        "Data": "2024-08-28",
-        "Faturamento": 28449.98,
-        "Dia_da_Semana": "Wednesday"
-    },
-    {
-        "Data": "2024-08-29",
-        "Faturamento": 13495.99,
-        "Dia_da_Semana": "Thursday"
-    },
-    {
-        "Data": "2024-08-30",
-        "Faturamento": 28068.64,
-        "Dia_da_Semana": "Friday"
-    },
-    {
-        "Data": "2024-08-31",
-        "Faturamento": 0,
-        "Dia_da_Semana": "Saturday"
-    }
+	{
+		"dia": 1,
+		"valor": 22174.1664
+	},
+	{
+		"dia": 2,
+		"valor": 24537.6698
+	},
+	{
+		"dia": 3,
+		"valor": 26139.6134
+	},
+	{
+		"dia": 4,
+		"valor": 0.0
+	},
+	{
+		"dia": 5,
+		"valor": 0.0
+	},
+	{
+		"dia": 6,
+		"valor": 26742.6612
+	},
+	{
+		"dia": 7,
+		"valor": 0.0
+	},
+	{
+		"dia": 8,
+		"valor": 42889.2258
+	},
+	{
+		"dia": 9,
+		"valor": 46251.174
+	},
+	{
+		"dia": 10,
+		"valor": 11191.4722
+	},
+	{
+		"dia": 11,
+		"valor": 0.0
+	},
+	{
+		"dia": 12,
+		"valor": 0.0
+	},
+	{
+		"dia": 13,
+		"valor": 3847.4823
+	},
+	{
+		"dia": 14,
+		"valor": 373.7838
+	},
+	{
+		"dia": 15,
+		"valor": 2659.7563
+	},
+	{
+		"dia": 16,
+		"valor": 48924.2448
+	},
+	{
+		"dia": 17,
+		"valor": 18419.2614
+	},
+	{
+		"dia": 18,
+		"valor": 0.0
+	},
+	{
+		"dia": 19,
+		"valor": 0.0
+	},
+	{
+		"dia": 20,
+		"valor": 35240.1826
+	},
+	{
+		"dia": 21,
+		"valor": 43829.1667
+	},
+	{
+		"dia": 22,
+		"valor": 18235.6852
+	},
+	{
+		"dia": 23,
+		"valor": 4355.0662
+	},
+	{
+		"dia": 24,
+		"valor": 13327.1025
+	},
+	{
+		"dia": 25,
+		"valor": 0.0
+	},
+	{
+		"dia": 26,
+		"valor": 0.0
+	},
+	{
+		"dia": 27,
+		"valor": 25681.8318
+	},
+	{
+		"dia": 28,
+		"valor": 1718.1221
+	},
+	{
+		"dia": 29,
+		"valor": 13220.495
+	},
+	{
+		"dia": 30,
+		"valor": 8414.61
+	}
 ]
