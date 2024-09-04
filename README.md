@@ -1,6 +1,8 @@
 # target-systems
 Desáfio Técnico
 
+![Tela Inicial da Aplicação PHP](https://github.com/eduardoconde-bit/target-systems/blob/main/Screenshot.png)
+
 Técnica:
 
 1) Observe o trecho de código abaixo: int INDICE = 13, SOMA = 0, K = 0;

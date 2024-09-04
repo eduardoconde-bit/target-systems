@@ -9,10 +9,9 @@ d_a_average_revenue = 0
 try:
     with open('invoicing.json', mode='r') as invoicing_json:
         invoicing_data = json.load(invoicing_json)
-        for invoice in invoicing_data:
-            #considering that there is no billing on weekends
-            if invoice["Dia_da_Semana"] not in ["Sunday", "Saturday"]:
-                invoicing_list.append(invoice["Faturamento"])
+        for invoicing in invoicing_data:
+            if invoicing["valor"] > 0: #!=, or >
+                invoicing_list.append(invoicing["valor"])
 except Exception as e:
     #Exceção qualquer
     print(f"Ocorreu um erro {e}")
@@ -28,6 +27,7 @@ min_profit_day = min(invoicing_list)
 max_profit_day = max(invoicing_list) 
 
 #Result output, considering working days.
+print("-"*20 + " DISTRIBUIDORA LTDA " + "-"*20)
 print("-"*60)
 print(f"Média Mensal: R$ {average_profit:,.2f}")
 print(f"Número de Dias (Lucro Maior) sobre Média Mensal: {d_a_average_revenue}")
