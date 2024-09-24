@@ -1,5 +1,6 @@
 <?php 
     require_once(__DIR__."/php/Invoicing.php");
+    require_once(__DIR__."/php/Money.php");
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -21,14 +22,6 @@
 
         <?php
 
-            function formatToBRL($value, $isInteger = false) {
-                if ($isInteger) {
-                    return number_format($value, 0, ',', '.'); // Inteiro: sem casas decimais
-                } else {
-                    return number_format($value, 2, ',', '.'); // Decimal: duas casas decimais
-                }
-            }
-
             if($_SERVER["REQUEST_METHOD"] === "POST") {
                 if(isset($_FILES["invoicing_file"]) && !$_FILES["invoicing_file"]["error"]) {
                     $file = $_FILES['invoicing_file']['tmp_name'];
@@ -39,9 +32,9 @@
                     if(!$invoicingProcess->invoicingProcess()) {
                         echo '<p class="error">Erro ao processar arquivo ou Não Suportado!</p>';
                     } else {
-                        echo '<p>Média: R$ ' . formatToBRL($invoicingProcess->average) . '</p>';
-                        echo '<p>Faturamento Mínimo: R$ ' . formatToBRL($invoicingProcess->minInv) . '</p>';
-                        echo '<p>Faturamento Máximo: R$ ' . formatToBRL($invoicingProcess->maxInv) . '</p>';
+                        echo '<p>Média: R$ ' . Money::formatToBRL($invoicingProcess->average) . '</p>';
+                        echo '<p>Faturamento Mínimo: R$ ' . Money::formatToBRL($invoicingProcess->minInv) . '</p>';
+                        echo '<p>Faturamento Máximo: R$ ' . Money::formatToBRL($invoicingProcess->maxInv) . '</p>';
                         echo '<p>Dias acima da receita média: ' . $invoicingProcess->DAAverageRevenue . '</p>';
                     }
                 }
