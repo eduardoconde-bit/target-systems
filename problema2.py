@@ -12,6 +12,9 @@ while p <= number:
         break;
     print(a, end="-")
     a, p = p, p + a
+    
+#End Terms    
+print(a, end="-")
 print(p)
 
 if is_sequence:

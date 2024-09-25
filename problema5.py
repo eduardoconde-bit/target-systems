@@ -1,5 +1,6 @@
 class StringFunction:
 
+    #Creating my own string inversion method
     @staticmethod
     def reverse(chain):
         tempChain = ''

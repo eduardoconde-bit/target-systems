@@ -6,6 +6,6 @@ k = 0
 
 while k < index:
     k += 1
-    _sum = _sum + k
+    _sum += k
 
 print(f'Valor de Saída da Soma: {_sum}')
